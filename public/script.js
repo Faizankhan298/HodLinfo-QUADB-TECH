@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   fetchData();
 
   // Fetch data every 60 seconds
-  setInterval(fetchData, 1000);
+  setInterval(fetchData, 60000);
 });

@@ -3,7 +3,7 @@ const axios = require("axios");
 const { Sequelize, DataTypes } = require("sequelize");
 const path = require("path");
 
-// Set up Sequelize with correct credentials
+// Set up Sequelize with correct credentials 
 const sequelize = new Sequelize("hodlinfo", "postgres", "Faizan@2604", {
   host: "localhost",
   dialect: "postgres",
